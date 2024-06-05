@@ -22,4 +22,3 @@ jobs:
           systemctl reload nginx.service
           
           whoami
-          146.190.85.59
