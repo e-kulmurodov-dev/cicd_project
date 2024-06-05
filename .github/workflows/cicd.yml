@@ -15,6 +15,8 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
+#        key: ${{secrets.KEY}}
+#        port: ${{secrets.PORT}}
         script: |
           cd /var/www/elbek_cicd/project1/backend
           git pull
